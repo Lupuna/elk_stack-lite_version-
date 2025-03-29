@@ -5,7 +5,7 @@ services:
     image: elasticsearch:7.16.1
     volumes:
       - ./configs/elasticsearch/config.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
-      - ./docker_volumes/elasticsearch/data:/elk_data:/usr/share/elasticsearch/data
+      - ./docker_volumes/elasticsearch/data:/usr/share/elasticsearch/data
     environment:
       ES_JAVA_OPTS: "-Xmx512m -Xms512m"
       ELASTIC_USERNAME: "elastic"
