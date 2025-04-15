@@ -169,6 +169,3 @@ cython_debug/
 src/.credentials/credentials.json
 # PyPI configuration file
 .pypirc
-
-# elk volumes
-/docker_volumes/
